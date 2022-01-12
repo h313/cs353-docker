@@ -1,7 +1,7 @@
 # change this variable to the path to your project directory
-$work="C:\Users\Username\csci350"
+$work="C:\Users\Username\csci353"
 $docker_compose=".\docker-compose.yml"
-$img_name="cs350_docker"
+$img_name="cs353_docker"
 
 # TODO: check if work/docker-compose variables are set
 if (-Not (Test-Path $work)) {

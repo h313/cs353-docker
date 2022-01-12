@@ -2,11 +2,11 @@ version: '3'
 
 services:
   gdbserver:
-    image: h313/csci353-docker:v1
+    image: h313/cs353-docker:v1
     security_opt:
       - seccomp:unconfined
     privileged: true
-    container_name: cs350_docker
+    container_name: cs353_docker
     ports:
       - "7776:22"
       - "7777:7777"

@@ -1,7 +1,7 @@
 .PHONY: build
 
 # Default values for variables
-REPO  			?= h313/csci353-docker
+REPO  			?= h313/cs353-docker
 TAG   			?= latest
 CONTAINER_NAME 	?= cs353-test
 

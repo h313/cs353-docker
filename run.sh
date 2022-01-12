@@ -7,9 +7,9 @@
 # On Unix: CHANGE THIS LINE to your project directory
 #  example:
 #  work=/Users/tommytrojan/cs353/lab1data
-work=~/projects/cs353/
+work=~/Downloads/cs353-docker
 
-img_name=cs353-docker
+img_name=cs353_docker
 
 docker_compose="./docker-compose.yml"
 

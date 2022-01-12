@@ -17,6 +17,7 @@ RUN apt-get update && apt-get install -y --no-install-recommends \
     lsb-release \
     openssh-server \
     rsync \
+    tcsh \
     valgrind \
     && apt-get autoclean -y \
     && apt-get autoremove -y \
